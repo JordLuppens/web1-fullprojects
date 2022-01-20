@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Camping Josée</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="home.html"><img src="images/logo.png"></a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="contact.html">NL</a></li>
+                    <li><a href="contact-fr.html">FR</a></li>
+                    <li><a href="contact-en.html">EN</a></li>
+                    <li><a href="contact-fr.html" class="button">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="title">
+            <div class="title-text">
+                <h1>Contact</h1>
+                <h2>Camping Josée</h2>
+            </div>
+            <div class="container">
+                <form action="action_page.php">
+
+                    <label for="fname">Prénom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Ton prénom..">
+
+                    <label for="lname">Nom de famille</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Votre nom de famille..">
+
+                    <label for="subject">Sujet</label>
+                    <select id="subject" name="subject">
+                        <option value="question">Question</option>
+                        <option value="suggestion">Suggestion</option>
+                        <option value="complaint">Plainte</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Ecrire ici.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

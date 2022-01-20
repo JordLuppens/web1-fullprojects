@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #FAF8F6;
+}
+
+.wrapper {
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #8E5E98;
+}
+
+.navigation ul li a.button {
+    background-color: #8E5E98;
+    padding: 10px 20px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation ul li a.button:hover {
+    background-color: #95709c;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.title-text {
+    flex: 1;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.title-text2 {
+    flex: 1;
+}
+
+.title-text h1 {
+    font-size: 70px;
+    color: #794d81;
+}
+
+.title-text h2 {
+    font-size: 30px;
+    color: rgb(147, 116, 153);
+    font-weight: normal;
+}
+
+.title-text2 p {
+    font-size: 21px;
+}
